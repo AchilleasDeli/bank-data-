@@ -1,3 +1,4 @@
+
 # bank-data-
 
 
@@ -51,4 +52,41 @@ Mortgage : Value of house mortgage if any. ($000)
 13.Online : Does the customer use internet banking facilities?
 
 14.Credit card : Does the customer use a credit card issued by
+
+
+##  Project Workflow
+- Data Exploration & Cleaning
+- Feature Selection & Encoding
+- Logistic Regression Modeling
+- Evaluation using accuracy and confusion matrix
+
+##  Machine Learning Approach
+- **Model Used**: Logistic Regression (binary classification)
+- **Train/Test Split**: 70/30
+- **Evaluation Metrics**: 
+  - Accuracy
+  - Confusion Matrix
+  - Classification Report (Precision, Recall, F1)
+
+
+
+##  Tools & Technologies
+- Python 3.x
+- Pandas, NumPy
+- Seaborn, Matplotlib
+- Scikit-learn
+- Jupyter Notebook
+
+
+
+### Prerequisites
+You will need Python and the following libraries installed:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+##RUNNING THE PROJECT
+git clone https://github.com/AchilleasDeli/bank-data-.git
+cd bank-data-
+jupyter notebook bank.ipynb
+
 
